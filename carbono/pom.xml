@@ -1,0 +1,318 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>dds.tp</groupId>
+	<artifactId>carbono</artifactId>
+	<version>1.0</version>
+	<packaging>jar</packaging>
+	<name>Carbono</name>
+	<properties>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.6</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.spark</groupId>
+			<artifactId>spark-core_2.13</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sparkjava</groupId>
+			<artifactId>spark-template-mustache</artifactId>
+			<version>2.7.1</version>
+		</dependency>
+
+		<dependency>
+		<groupId>com.sparkjava</groupId>
+		<artifactId>spark-template-handlebars</artifactId>
+		<version>2.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.9.0</version>
+
+		</dependency>
+
+				<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.2.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.reflections</groupId>
+			<artifactId>reflections</artifactId>
+			<version>0.10.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.squareup.retrofit2/retrofit -->
+		<dependency>
+			<groupId>com.squareup.retrofit2</groupId>
+			<artifactId>retrofit</artifactId>
+			<version>2.9.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.squareup.retrofit2</groupId>
+			<artifactId>converter-gson</artifactId>
+			<version>2.9.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>dds.tp.carbono</groupId>
+			<artifactId>excelreader2</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/excelReader-1.0.jar</systemPath>
+		</dependency>
+
+		<!-- Test -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		
+
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>2.27.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Quartz Core -->
+		<dependency>
+    		<groupId>org.quartz-scheduler</groupId>
+    		<artifactId>quartz</artifactId>
+    		<version>2.3.2</version>
+		</dependency>
+
+		<dependency>
+    		<groupId>org.uqbar-project</groupId>
+    		<artifactId>jpa-java8-extras</artifactId>
+    		<version>1.0-alpha-1</version>
+		</dependency>
+
+		<dependency>
+    		<groupId>mysql</groupId> 
+    		<artifactId>mysql-connector-java</artifactId>
+    		<version>8.0.30</version>
+		</dependency> 
+
+		<dependency>
+    		<groupId>org.apache.commons</groupId>
+    		<artifactId>commons-lang3</artifactId>
+    		<version>3.0</version>
+		</dependency>
+
+		<dependency>
+    		<groupId>org.apache.commons</groupId>
+    		<artifactId>commons-lang3</artifactId>
+    		<version>3.0</version>
+		</dependency> 
+
+		<dependency>
+    		<groupId>org.hsqldb</groupId>
+    		<artifactId>hsqldb</artifactId>
+    		<version>2.2.8</version>
+		</dependency>
+		
+		<dependency>
+    		<groupId>com.google.guava</groupId>
+    		<artifactId>guava</artifactId>
+    		<version>31.0.1-jre</version>
+		</dependency>
+
+		<dependency>
+  			<groupId>com.twilio.sdk</groupId>
+  			<artifactId>twilio</artifactId>
+ 			 <version>8.36.0</version>
+		</dependency>
+	
+
+
+
+
+		<dependency>
+  			<groupId>com.twilio.sdk</groupId>
+  			<artifactId>twilio</artifactId>
+ 			 <version>8.36.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sparkjava</groupId>
+			<artifactId>spark-core</artifactId>
+			<version>2.7.2</version>
+		</dependency>
+			<dependency>
+			<groupId>com.sparkjava</groupId>
+			<artifactId>spark-debug-tools</artifactId>
+			<version>0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sparkjava</groupId>
+			<artifactId>spark-template-velocity</artifactId>
+			<version>2.7.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>27.0.1-jre</version>
+		</dependency>
+
+		<dependency>
+    	<groupId>com.google.inject</groupId>
+    	<artifactId>guice</artifactId>
+    	<version>4.1.0</version>
+		</dependency>
+
+
+
+
+
+
+	</dependencies>
+
+
+
+
+	<dependencyManagement>
+
+		<dependencies>
+
+
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>1.7.5</version>
+			</dependency>
+
+		</dependencies>
+
+	</dependencyManagement>
+
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+					<executions>
+						<execution>
+									<phase>package</phase>
+									<goals>
+											<goal>single</goal>
+									</goals>
+						</execution>
+					</executions>
+					<configuration>
+						<descriptorRefs>
+							<!-- This tells Maven to include all dependencies -->
+							<descriptorRef>jar-with-dependencies</descriptorRef>
+						</descriptorRefs>
+						<archive>
+							<manifest>
+								<mainClass>dds/tp/carbono/CarbonoApplication</mainClass>
+							</manifest>
+						</archive>
+					</configuration>
+			</plugin>
+
+
+			<plugin>
+				<groupId>com.heroku.sdk</groupId>
+				<artifactId>heroku-maven-plugin</artifactId>
+				<configuration>
+					<jdkVersion>1.8</jdkVersion>
+					<!-- Use your own application name -->
+					<appName>carbonoapplication</appName>
+					<processTypes>
+						<!-- Tell Heroku how to launch your application -->
+						<!-- You might have to remove the ./ in front   -->
+						<web>java -jar target/carbono-1.0-jar-with-dependencies.jar</web>
+					</processTypes>
+				</configuration>
+		</plugin>
+
+
+
+
+			<plugin>
+			<artifactId>maven-deploy-plugin</artifactId>
+			<version>2.8.2</version>
+			</plugin>
+			<!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+			<plugin>
+			<artifactId>maven-site-plugin</artifactId>
+			<version>3.7.1</version>
+			</plugin>
+		  <plugin>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>3.1.0</version>
+        </plugin>
+        <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.22.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>2.5.2</version>
+        </plugin>
+
+
+
+
+
+
+
+
+		</plugins>
+
+	</build>
+
+
+
+
+</project>
