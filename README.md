@@ -1,6 +1,6 @@
 ### HuellaDeCarbono_Java_Hibernate
-##Trabajo practico realizado en la cursada de la asignatura Diseño de Sistemas en 2022.
-#Objetivos generales del TP:
+## Trabajo practico realizado en la cursada de la asignatura Diseño de Sistemas en 2022.
+#### Objetivos generales del TP:
 - Modelado en objetos (Java)
 - Generación de wireframes.
 - Realizar una integración, mediante API REST, contra un sistema externo.
