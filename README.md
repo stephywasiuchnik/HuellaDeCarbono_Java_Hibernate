@@ -7,11 +7,11 @@
 - Incorporar aspectos del modelo de negocios y definir su diseño apropiado.
 - Ejecuciones de tareas asincrónicas y/o calendarizadas.
 - Persistencia de Datos, en un medio relacional, de un Sistema de Información
-- Técnica de mapeo objeto – relacional y la utilización de herramientas de mercado que permitan realizarlo
+- Técnica de mapeo objeto – relacional.
 - Desnormalizaciones del Modelo Relacional
 - Arquitectura Web.
 - Utilización de un micro framework Web.
 - Incorporar nociones de Clientes Pesados y Clientes Livianos.
-- Incorporar nociones de uso de Motores de Plantilla (templates engines).
-- Familiarizarse con técnicas de Deploy
+- Uso de Motores de Plantilla (templates engines).
+- Técnicas de Deploy
 - Conocer diferentes proveedores de hosting de aplicaciones en nube
